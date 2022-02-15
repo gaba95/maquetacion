@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --white:#FFFFFF;
+    --black:#000000;
+    --primary: #C7C7C7;
+    --secondary: #515151;
+    --accent:#ACD9B2;
+    --mmd:1.8rem;
+    --smm:1.5rem;
+    --sm:2rem;
+    --md:2.6rem;
+    --lg:3rem;
+}
+.parent{
+    
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 2rem;
+    margin: 10%;
+    min-height: 65rem;
+    min-width: 40rem;
+    position: relative;
+    background: linear-gradient(158deg, rgba(128,35,170,1) 0%, rgba(84,84,240,1) 33%, rgba(130,234,255,1) 100%);
+}
+
+.caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.caption h1{
+    color: var(--white);
+    font-weight: normal;
+    font-size: var(--lg) ;
+    margin: 1rem;
+    padding: 0;
+}
+
+.caption h3{
+    color: var(--white);
+    font-weight: normal;
+    font-size: var(--sm);    
+}
+
+.pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    top: 0;
+}
+
+section{
+    background-color: var(--white);
+    margin:0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: -4rem 4rem;
+    border-radius: 10px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.name h1{
+    font-size: var(--md);
+    color: var(--secondary);
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.name figure{
+    margin: 0 ;
+    padding: 1rem;
+}
+hr{
+    height: 0.6rem;
+    width: 20rem;
+    border: none;
+    border-radius: 5px;
+    background: rgb(147,228,143);
+    background: linear-gradient(90deg, rgba(147,228,143,1) 0%, rgba(0,140,52,1) 100%);
+}
+section h2{
+    text-align: center;
+    color: var(--secondary);
+    font-weight: normal;
+    font-size: var(--mmd);
+}
+section h3{
+    text-align: center;
+    color: var(--secondary);
+    font-weight: normal;
+    font-size: var(--smm);
+}
+
+.description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    grid-gap: 1.5rem;
+}
+
+.description div:nth-child(1),
+.description div:nth-child(2){
+    padding: 5px;
+    padding-right: 12px;
+    border-color: #cccccc;
+    border-style: none dotted none none
+}
+
+.extras{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    grid-gap: 1.5rem;
+}
+button{
+    background: rgb(147,228,143);
+    background: linear-gradient(148deg, rgba(147,228,143,1) 0%, rgba(11,108,47,1) 100%);
+    border-radius: 10px;
+    min-height: 3.5rem;
+    min-width: 15rem;
+    border: none;
+    margin: 2rem 0;
+}
+button a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Quicksand';
+    font-size: var(--sm);
+    font-weight: normal;
+}
