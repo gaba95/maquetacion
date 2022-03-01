@@ -21,10 +21,10 @@ html{
     --lg:3rem;
 }
 header{
-    /*padding: 2rem;*/
-    align-items: center;
+    /*padding: 2rem;align-items: center;*/
     display: flex;
     border-bottom: 0.1rem solid var(--primary);
+    width: 100%;
 }
 
 .bar-name h1{
